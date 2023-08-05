@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Julia Alekseev" content="width=device-width, initial-scale=1.0">
+  <title>TAKI reviews</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+ 
+  <!-- Main Container -->
+<div class="container"> 
+
+ <!-- Navigation header-->
+ <header>
+  <div class="logoDiv"><img src="images/TAKI_logo.png" alt="TAKI_logo" class="logo"> <figcaption class="logoCite">Credit: Shafir Games</figcaption></div>
+  <nav class="headNav">
+    <button onclick="window.location.href='index.html'" class="footHome"><b>HOME</b></button>
+    <button onclick="window.location.href='info.html'" class="footInfo"><b>INFO</b></button>
+    <button onclick="window.location.href='reviews.html'" class="footReviews"><b>REVIEWS</b></button>
+    <button onclick="window.location.href='about.html'" class="footAbout"><b>ABOUT</b></button>
+  </nav>
+</header>
+
+ <!-- Content div-->
+<div class="content">
+  <div class="content1">
+    <div class="green">
+    <h1><strong>Reviews</strong></h1>
+  </div>
+ <!-- header -->
+
+ <div class="upReview">
+  <div class="cards" id="reviewPage"> <!-- content here --></div>
+</div>
+ <!-- new review -->
+<div class="reviewsDiv">
+  <form class="newReview" id="post">
+
+   <!-- name -->
+    <label for="name">Name</label>
+    <input class="reviewName" type="text" id="name" name="reviewName" placeholder="Your name"><br>
+    
+       <!-- stars -->
+    <label for="starRatings">Star Ratings</label>
+    <div class="starRating">
+      <input type="radio" id="star5" name="starRatings" value="1">
+      <label for="star1" title="1 stars">1★</label>
+    
+      <input type="radio" id="star4" name="starRatings" value="2">
+      <label for="star2" title="2 stars">2★</label>
+    
+      <input type="radio" id="star3" name="starRatings" value="3">
+      <label for="star3" title="3 stars">3★</label>
+    
+      <input type="radio" id="star2" name="starRatings" value="4">
+      <label for="star4" title="4 stars">4★</label>
+    
+      <input type="radio" id="star1" name="starRatings" value="5">
+      <label for="star5" title="5 star">5★</label>
+    </div><br>
+
+    <label for="revHeader">Review Header</label>
+    <input type="text" id="revHeader" name="revHeader" placeholder="Subject"><br>
+  
+     <!-- content -->
+    <textarea class="revBod" id="postContent" name="w3review" rows="4" cols="50" placeholder="Write your review"></textarea>
+      
+     <!-- submit -->
+    <button class="reviewButton" type="button" onclick="submitReview()">submit</button>
+  </form>
+  
+</div>
+
+</div>
+ <!-- Navigation footer-->
+ <footer>
+  <nav class="footNav">
+    <button onclick="window.location.href='index.html'" class="footHome"><b>HOME</b></button>
+    <button onclick="window.location.href='info.html'" class="footInfo"><b>INFO</b></button>
+    <button onclick="window.location.href='reviews.html'" class="footReviews"><b>REVIEWS</b></button>
+    <button onclick="window.location.href='about.html'" class="footAbout"><b>ABOUT</b></button>
+  </nav>
+
+</footer>
+</div>
+
+</div>
+
+  </div>
+  <script src="./js/reviews.js"></script>
+  <script src="./js/app.js"></script>
+ 
+</body>
+</html>
