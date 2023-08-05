@@ -100,10 +100,7 @@ body {
     position: relative;
  
   }
-  .green{
-    width: 100%;
-    background-color: #46b96c;
-  }
+
   strong::before {
     background: linear-gradient(to right, #fffd81, #46b96c);
     content: "";
@@ -489,4 +486,17 @@ textarea {
 
 .reviewButton:hover {
   background-color: #43a6e7;
+}
+
+
+.instructVideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.takiVid {
+  width: 80%; /* Adjust the width as needed */
+  height: 60vh; /* Adjust the height as needed */
+  max-width: 100%;
 }
