@@ -567,17 +567,23 @@ textarea {
     width: auto; 
   }
 
+  strong {
+    position: relative;
+    display: inline-block; 
+  }
+  
   strong::before {
-    background: linear-gradient(to right, #fffd81, #46b96c);
     content: "";
     position: absolute;
     width: calc(100% + 12px); 
     height: 50%; 
     left: -6px; 
     bottom: -5px; 
-    z-index: -2;
+    z-index: -1;
+    background: linear-gradient(to right, #fffd81, #46b96c);
     transform: rotate(-2deg);
   }
+  
   
 
 
