@@ -9,9 +9,11 @@
  *
  *      Name:       Julia Alekseev
  *      Student ID: 051292134
- *      Date:       2023-08-05
+ *      Date:       2023-08-07
 */
 
+
+/*===================PC SCREEN CSS=============*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -476,13 +478,24 @@ textarea {
 }
 
 .takiVid {
-  width: 80%; /* Adjust the width as needed */
-  height: 60vh; /* Adjust the height as needed */
+  width: 80%; 
+  height: 60vh; 
   max-width: 100%;
 }
 
-/* Media Queries */
+/*===================MOBILE SCREEN CSS=============*/
 @media only screen and (max-width: 767px) {
+
+  .upReview {
+    display: block; 
+  }
+
+  .card {
+    max-width: 100%; 
+    margin: 10px auto; 
+  }
+
+
   .form {
     flex-direction: column;
   }
