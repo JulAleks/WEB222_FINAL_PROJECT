@@ -488,7 +488,9 @@ textarea {
   .logo {
     width: 40px; 
   }
-
+.logoCite{
+  font-size: 6px;
+}
   .upReview {
     display: block; 
   }
