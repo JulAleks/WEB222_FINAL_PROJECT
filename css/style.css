@@ -489,10 +489,10 @@ textarea {
 /*===================MOBILE SCREEN CSS=============*/
 @media only screen and (max-width: 640px) {
   .logo {
-    width: 30px; 
+    width: 40px; 
   }
 .logoCite{
-  font-size: 4px;
+  font-size: 5px;
 }
   .upReview {
     display: block; 
@@ -547,7 +547,7 @@ textarea {
   }
 
   .headNav button {
-    font-size: 10px;
+    font-size: 11px;
     margin: 5px; 
     width: auto; 
     height: auto; 
