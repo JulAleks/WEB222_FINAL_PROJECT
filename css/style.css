@@ -267,7 +267,8 @@ footer {
 
 .tiktok-embed {
   padding-right: 20px;
-  max-width: 600px;
+  max-width: 605px;
+  min-width: 325px;
 }
 
 .inst {
