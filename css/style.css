@@ -269,6 +269,7 @@ footer {
   padding-right: 20px;
   max-width: 605px;
   min-width: 325px;
+  border-radius: 30px;
 }
 
 .inst {
@@ -479,6 +480,7 @@ textarea {
 }
 
 .takiVid {
+  border-radius: 20px;
   width: 80%; 
   height: 60vh; 
   max-width: 100%;
