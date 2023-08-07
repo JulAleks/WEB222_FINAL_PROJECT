@@ -485,6 +485,9 @@ textarea {
 
 /*===================MOBILE SCREEN CSS=============*/
 @media only screen and (max-width: 767px) {
+  .logo {
+    width: 80px; 
+  }
 
   .upReview {
     display: block; 
