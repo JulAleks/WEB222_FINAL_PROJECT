@@ -547,6 +547,7 @@ textarea {
   }
 
   .headNav button {
+    font-size: 10px;
     margin: 5px; 
     width: auto; 
     height: auto; 
