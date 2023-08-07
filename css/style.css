@@ -487,7 +487,7 @@ textarea {
 }
 
 /*===================MOBILE SCREEN CSS=============*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 640px) {
   .logo {
     width: 40px; 
   }
