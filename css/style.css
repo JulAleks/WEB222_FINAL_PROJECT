@@ -527,4 +527,39 @@ textarea {
     padding-right: 0;
     max-width: 100%;
   }
+
+
+  header {
+    padding: 10px 20px; 
+  }
+
+  .headNav {
+    text-align: center; 
+    margin-top: 10px; 
+  }
+
+  .headNav button {
+    margin: 5px; 
+    width: auto; 
+    height: auto; 
+  }
+
+  footer {
+    padding: 10px 20px; 
+  }
+
+  .footNav {
+    text-align: center; 
+    margin-top: 10px; 
+  }
+
+  .footNav button {
+    margin: 5px; 
+    width: auto; 
+  }
+
+
+
+
+
 }
