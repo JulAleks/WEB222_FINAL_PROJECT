@@ -584,7 +584,7 @@ textarea {
     transform: rotate(-2deg);
   }
   
-  .h1index{
+  .h1index, .honestyContent{
     text-align: left;
   }
 
